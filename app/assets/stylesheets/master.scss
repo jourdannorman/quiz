@@ -1,4 +1,27 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+}
+
+.color-choice {
+  font-size: 20px;
+}
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -12,7 +35,25 @@
   margin-bottom: 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
+.navbar {
+  background: image_url('subtle_carbon.png');
+  box-shadow: 0px 1px 3px #2a2a2a;
 }
+
+.navbar-inverse .navbar-brand {
+  color: #ff99cc;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
