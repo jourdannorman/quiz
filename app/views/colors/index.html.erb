@@ -1,7 +1,7 @@
-<h1>What's Your Favorite Color?</h1>
+<h1 class="text-center">What's Your Favorite Color?</h1>
 <% @colors.each do |color| %>
-  <div>
-    <h2><%= color.name %></h2><br />
-    <i><%= color.fave_color %></i><br />
+  <div class="booyah-box col-10 offset-1">
+    <h2><%= color.name %></h2>
+    <i><%= color.fave_color %></i><br /><br />
   </div>
 <% end %>
