@@ -58,5 +58,6 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 # Form
 gem 'simple_form'
 
-
+# Icons
+gem 'font-awesome-rails'
 
